@@ -21,13 +21,13 @@ st.sidebar.title("Enter API-KEYS")
 
 # ==================Step 3 Load API-Keys================
 GOOGLE_API_KEY = st.sidebar.text_input("Google-API", type = "password")
-TAVILY_API_KEY = st.sidebar.text_input("Tavily-API", type = "password")
+TAVILY_API_KEY = st.sidebar.text_input("TAVILY-API", type = "password")
 
 
 # =================STEP 4 API VALIDATIONS================
 ALL_API = [GOOGLE_API_KEY, TAVILY_API_KEY]
 
-if not all(AII_API):
+if not all(ALL_API):
   st.sidebar.error("MUST PASS ALL API-KEYS")
 
 elif all(ALL_API):
