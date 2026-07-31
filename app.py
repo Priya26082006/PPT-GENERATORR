@@ -21,7 +21,7 @@ st.sidebar.title("Enter API-KEYS")
 
 # ==================Step 3 Load API-Keys================
 GOOGLE_API_KEY = st.sidebar.text_input("Google-API", type = "password")
-TAVILY_API_KEY = st.sidebar.text_input("Google-API", type = "password")
+TAVILY_API_KEY = st.sidebar.text_input("Tavily-API", type = "password")
 
 
 # =================STEP 4 API VALIDATIONS================
