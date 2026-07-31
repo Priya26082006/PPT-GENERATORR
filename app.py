@@ -31,7 +31,7 @@ if not all(AII_API):
   st.sidebar.error("MUST PASS ALL API-KEYS")
 
 elif all(ALL_API):
-  st..sidebar.success("API-KEYS LOADED SUCCESSFULLY")
+  st.sidebar.success("API-KEYS LOADED SUCCESSFULLY")
   # MODEL LOAD
   model = ChatGoogleGenerativeAI(
   google_api_key = GOOGLE_API_KEY,
